@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/QA_Automation/test3">
+        <classes>
+            <class name="ui_test.TestCases">
+                <methods>
+                    <include name="checkAlerts"/>
+                    <include name="checkIframe"/>
+                    <include name="checkTables"/>
+                    <include name="checkHandles"/>
+                    <include name="checkSliderProgressBar"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

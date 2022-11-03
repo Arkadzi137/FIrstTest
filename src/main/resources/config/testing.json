@@ -1,0 +1,27 @@
+{
+  "child_frame_text":"Child Iframe",
+  "parent_frame_text":"Parent frame",
+  "age_engineer": 29,
+
+  "users": [
+    {
+      "userId": 1,
+      "firstName": "Jon",
+      "lastName": "Snow",
+      "email": "knownothing@gmail.com",
+      "age": 30,
+      "salary": 3000,
+      "department": "alpha"
+    },
+    {
+      "userId": 2,
+      "firstName": "Buttercup",
+      "lastName": "Cumbersnatch",
+      "email": "BudapestCandygram@mail.ru",
+      "age": 41,
+      "salary": 2000,
+      "department": "beta"
+    }],
+  "month": 2,
+  "day": 29
+}
