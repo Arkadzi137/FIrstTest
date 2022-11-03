@@ -12,7 +12,7 @@ public class BrowserFactory {
     private BrowserFactory(){}
     protected static WebDriver driver;
 
-    private static String browser = ReadJson.getConfigData("browser").toString().toLowerCase();
+    private static String browser = System.getenv("BROWSER");
 
     protected static void setDriver() {
         switch (browser) {
